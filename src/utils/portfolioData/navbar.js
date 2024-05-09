@@ -6,6 +6,6 @@ export  const navbarData = {
     { id: "skills", label: "Skills" },
     { id: "projects", label: "Projects" },
     { id: "timeline", label: "Timeline" },
-    { id: "contact", label: "Contact" },
+    // { id: "contact", label: "Contact" },
   ],
 };

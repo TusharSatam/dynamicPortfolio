@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 export const userInfo = {
   firstname: "John",
   fullname: "John Ola",
-  email: "example@gamil.com",
+  email: "tsatam91@gmail.com",
   phone: "123567890",
   image: "https://iili.io/JrO8Ae2.jpg",
   socialLinks: [

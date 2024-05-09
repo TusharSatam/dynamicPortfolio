@@ -9,8 +9,8 @@ const Skills = () => {
       <div className='flex  justify-center gap-10 items-center flex-wrap'>
 
 
-        {skillsData?.skills && skillsData?.skills?.map((e) => (
-          <div className='flex flex-col justify-center items-center gap-2'>
+        {skillsData?.skills && skillsData?.skills?.map((e,index) => (
+          <div className='flex flex-col justify-center items-center gap-2' key={e?.skillname}>
             <div style={{ color: e?.iconColor }} className='text-2xl'>
               {e?.skillname==="Figma"?<Image src={figmaIcon} alt="figmaIcon" height={25} width={25}/>:e?.icon}
             </div>

@@ -4,6 +4,7 @@ import About from '../About'
 import Skills from '../Skills'
 import Projects from '../Projects/Projects'
 import Services from '../Services'
+import Timeline from '../Timeline'
 
 const SectionLayout = () => {
     return (
@@ -11,18 +12,12 @@ const SectionLayout = () => {
             <div className='lg:w-2/5 sticky top-0  h-fit hidden lg:flex'>
                 <UserCard />
             </div>
-            <div className='w-full lg:w-3/5 flex flex-col'>
+            <div className='w-full lg:w-3/5 flex flex-col mb-[3rem]'>
                 <About />
                 <Skills />
                 <Services />
                 <Projects />
-                <About />
-                <About />
-                <About />
-                <About />
-                <About />
-                <About />
-                <About />
+                <Timeline/>
             </div>
         </div>
     )
